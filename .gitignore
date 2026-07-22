@@ -1,9 +1,13 @@
+# ==========================
 # Environment variables
+# ==========================
 .env
 .env.*
 !.env.example
 
+# ==========================
 # Python
+# ==========================
 __pycache__/
 *.py[cod]
 .venv/
@@ -12,32 +16,50 @@ venv/
 .mypy_cache/
 .ruff_cache/
 
-# Node.js
+# ==========================
+# Java / Maven
+# ==========================
+target/
+*.class
+
+# ==========================
+# Node.js / Next.js
+# ==========================
 node_modules/
 .next/
 dist/
 build/
 coverage/
 
-# IDEs and editors
+# ==========================
+# IDEs and Editors
+# ==========================
 .vscode/
 .idea/
 *.iml
 
-# Operating systems
+# ==========================
+# Operating Systems
+# ==========================
 .DS_Store
 Thumbs.db
 
+# ==========================
 # Logs
+# ==========================
 *.log
 
-# Databases and data
+# ==========================
+# Databases and Data
+# ==========================
 *.db
 *.sqlite
 *.sqlite3
 data/raw/
 data/processed/
 
-# Temporary files
+# ==========================
+# Temporary Files
+# ==========================
 tmp/
 temp/
